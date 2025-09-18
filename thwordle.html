@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="content-language" content="en">
+    <meta name="external" content="true">
+    <meta name="distribution" content="Global">
+    <meta http-equiv="audience" content="General">
+    <link rel="icon" href="rs/imgs/bloodmoney-21.png">
+    <title>Thwordle - BloodMoney 2</title>
+    <meta name="keywords" content="thwordle">
+    <meta name="news_keywords" content="thwordle">
+    <meta name="description" content="Thwordle - BloodMoney 2">
+    <link rel="stylesheet" type="text/css" href="rs/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@500;600;700&display=swap" rel="stylesheet">
+	</head>
+
+<body><!--MENU-->
+<header id="header">
+    <div class="container">
+        <div class="row">
+            <div class="p-r d-flex sp al header-bar">
+                <div class="bar-logo">
+                    <a class="logo-text" href="/">BloodMoney 2</a>
+                </div>
+                <nav class="navigation">
+                    <ul>
+                                                    <li>
+                                <a class="menu-link" href="/lovemoney">
+                                    <span class="text-menu-link">Lovemoney</span>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a class="menu-link" href="/bloodmoney">
+                                    <span class="text-menu-link">Bloodmoney</span>
+                                </a>
+                            </li>
+                                            </ul>
+                </nav>
+                <div class="center-box merge_icon icon-menu-mobile">
+                    <svg fill="#555" height="24" viewBox="0 -21 384 384" width="24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="m362.667969 0h-341.335938c-11.753906 0-21.332031 9.578125-21.332031 21.332031v42.667969c0 11.753906 9.578125 21.332031 21.332031 21.332031h341.335938c11.753906 0 21.332031-9.578125 21.332031-21.332031v-42.667969c0-11.753906-9.578125-21.332031-21.332031-21.332031zm0 0">
+                        </path>
+                        <path d="m362.667969 128h-341.335938c-11.753906 0-21.332031 9.578125-21.332031 21.332031v42.667969c0 11.753906 9.578125 21.332031 21.332031 21.332031h341.335938c11.753906 0 21.332031-9.578125 21.332031-21.332031v-42.667969c0-11.753906-9.578125-21.332031-21.332031-21.332031zm0 0">
+                        </path>
+                        <path d="m362.667969 256h-341.335938c-11.753906 0-21.332031 9.578125-21.332031 21.332031v42.667969c0 11.753906 9.578125 21.332031 21.332031 21.332031h341.335938c11.753906 0 21.332031-9.578125 21.332031-21.332031v-42.667969c0-11.753906-9.578125-21.332031-21.332031-21.332031zm0 0">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!--END MENU-->
+<!--Mobil MENU-->
+<div class="mobile-dropdown" id="mobile-dropdown">
+    <div class="row">
+        <nav class="nav-mobile-controler">
+            <ul>
+                                    <li>
+                        <a class="menu-link-mobile" href="/lovemoney">
+                            <span class="text-menu-link">Lovemoney</span>
+                        </a>
+                    </li>
+                                    <li>
+                        <a class="menu-link-mobile" href="/bloodmoney">
+                            <span class="text-menu-link">Bloodmoney</span>
+                        </a>
+                    </li>
+                            </ul>
+        </nav>
+    </div>
+</div>
+<!--END Mobile menu--><!--GAME PLAY-->
+<div id="game-page" class="main">
+    <div class="container">
+
+        <div class="row">
+            <div class="frame-box-game">
+                <iframe title="Thwordle" id="iframehtml5" class="d-block" width="100%" height="600px" target="_parent" src="https://www.thwordle.com/index.html" frameborder="0" border="0" scrolling="no" allowfullscreen=""></iframe>
+                <div class="header-game">
+                    <div class="box-header">
+                        <h1>Thwordle</h1>
+                        <div class="header-game-extend">
+                            <span class="us-expand" id="half-expand" onclick="theaterMode()">
+                                <svg class="scale-anim" width="24" height="24" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--gis" preserveAspectRatio="xMidYMid meet">
+                                    <path d="M8.5 22.5A3.5 3.5 0 0 0 5 26v48a3.5 3.5 0 0 0 3.5 3.5h83A3.5 3.5 0 0 0 95 74V26a3.5 3.5 0 0 0-3.5-3.5h-83zm3.5 7h76v41H12v-41z">
+                                    </path>
+                                </svg>
+                            </span>
+                            <span class="expand-btn" id="expand">
+                                <svg class="scale-anim" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3,15 L3.11662113,15.0067277 C3.57570299,15.0600494 3.93995063,15.424297 3.99327227,15.8833789 L4,16 L4,20 L8,20 L8.11662113,20.0067277 C8.61395981,20.0644928 9,20.4871642 9,21 C9,21.5128358 8.61395981,21.9355072 8.11662113,21.9932723 L8,22 L3,22 L2.88337887,21.9932723 C2.42429701,21.9399506 2.06004937,21.575703 2.00672773,21.1166211 L2,21 L2,16 L2.00672773,15.8833789 C2.06004937,15.424297 2.42429701,15.0600494 2.88337887,15.0067277 L3,15 Z M21,15 C21.5128358,15 21.9355072,15.3860402 21.9932723,15.8833789 L22,16 L22,21 C22,21.5128358 21.6139598,21.9355072 21.1166211,21.9932723 L21,22 L16,22 C15.4477153,22 15,21.5522847 15,21 C15,20.4871642 15.3860402,20.0644928 15.8833789,20.0067277 L16,20 L20,20 L20,16 C20,15.4871642 20.3860402,15.0644928 20.8833789,15.0067277 L21,15 Z M8,2 C8.55228475,2 9,2.44771525 9,3 C9,3.51283584 8.61395981,3.93550716 8.11662113,3.99327227 L8,4 L4,4 L4,8 C4,8.51283584 3.61395981,8.93550716 3.11662113,8.99327227 L3,9 C2.48716416,9 2.06449284,8.61395981 2.00672773,8.11662113 L2,8 L2,3 C2,2.48716416 2.38604019,2.06449284 2.88337887,2.00672773 L3,2 L8,2 Z M21,2 L21.1166211,2.00672773 C21.575703,2.06004937 21.9399506,2.42429701 21.9932723,2.88337887 L22,3 L22,8 L21.9932723,8.11662113 C21.9399506,8.57570299 21.575703,8.93995063 21.1166211,8.99327227 L21,9 L20.8833789,8.99327227 C20.424297,8.93995063 20.0600494,8.57570299 20.0067277,8.11662113 L20,8 L20,4 L16,4 L15.8833789,3.99327227 C15.3860402,3.93550716 15,3.51283584 15,3 C15,2.48716416 15.3860402,2.06449284 15.8833789,2.00672773 L16,2 L21,2 Z" />
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <span class="exit-fullscreen hidden" id="_exit_full_screen">
+                    <svg fill="#fff" width="24" height="24" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512.001 512.001" style="enable-background: new 0 0 512.001 512.001;">
+                        <g>
+                            <g>
+                                <path d="M284.286,256.002L506.143,34.144c7.811-7.811,7.811-20.475,0-28.285c-7.811-7.81-20.475-7.811-28.285,0L256,227.717 L34.143,5.859c-7.811-7.811-20.475-7.811-28.285,0c-7.81,7.811-7.811,20.475,0,28.285l221.857,221.857L5.858,477.859 c-7.811,7.811-7.811,20.475,0,28.285c3.905,3.905,9.024,5.857,14.143,5.857c5.119,0,10.237-1.952,14.143-5.857L256,284.287 l221.857,221.857c3.905,3.905,9.024,5.857,14.143,5.857s10.237-1.952,14.143-5.857c7.811-7.811,7.811-20.475,0-28.285 L284.286,256.002z">
+                                </path>
+                            </g>
+                        </g>
+                    </svg>
+                </span>
+            </div>
+        </div>
+        <br />
+
+        <div class="row">
+            <div class="uk-grid-clayover">
+                                    <div class="uk-grid-game">
+						<a class="uk-game-link" href="/thats-not-my-neighbor">
+                            <div class="uk-wrap-image">
+                                <img width="95" height="95" src="rs/imgs/thats-not-my-neighbor.jpg" title="That's Not My Neighbor" alt="That's Not My Neighbor" />
+                                <span class="text-overflow uk-game-title">That's Not My Neighbor</span>
+                                                            </div>
+                        </a>
+                    </div>
+                                    <div class="uk-grid-game">
+						<a class="uk-game-link" href="/human-expenditure-program">
+                            <div class="uk-wrap-image">
+                                <img width="95" height="95" src="rs/imgs/human_expenditure_program.png" title="Human Expenditure Program" alt="Human Expenditure Program" />
+                                <span class="text-overflow uk-game-title">Human Expenditure Program</span>
+                                                            </div>
+                        </a>
+                    </div>
+                                    <div class="uk-grid-game">
+						<a class="uk-game-link" href="/lovemoney">
+                            <div class="uk-wrap-image">
+                                <img width="95" height="95" src="rs/imgs/lovemoney.jpg" title="Lovemoney" alt="Lovemoney" />
+                                <span class="text-overflow uk-game-title">Lovemoney</span>
+                                                            </div>
+                        </a>
+                    </div>
+                                    <div class="uk-grid-game">
+						<a class="uk-game-link" href="/labubu-clicker">
+                            <div class="uk-wrap-image">
+                                <img width="95" height="95" src="rs/imgs/labubu.jpg" title="Labubu Clicker" alt="Labubu Clicker" />
+                                <span class="text-overflow uk-game-title">Labubu Clicker</span>
+                                                            </div>
+                        </a>
+                    </div>
+                                    <div class="uk-grid-game">
+						<a class="uk-game-link" href="/take-care-of-shadow-milk">
+                            <div class="uk-wrap-image">
+                                <img width="95" height="95" src="rs/imgs/take-care-of-your-own-shadow-milk.png" title="Take Care of Shadow Milk" alt="Take Care of Shadow Milk" />
+                                <span class="text-overflow uk-game-title">Take Care of Shadow Milk</span>
+                                                            </div>
+                        </a>
+                    </div>
+                                    <div class="uk-grid-game">
+						<a class="uk-game-link" href="/bloodmoney">
+                            <div class="uk-wrap-image">
+                                <img width="95" height="95" src="rs/imgs/bloodmoney2-s100x1001.png" title="Bloodmoney" alt="Bloodmoney" />
+                                <span class="text-overflow uk-game-title">Bloodmoney</span>
+                                                            </div>
+                        </a>
+                    </div>
+                                    <div class="uk-grid-game">
+						<a class="uk-game-link" href="/bloodmoney-unblocked">
+                            <div class="uk-wrap-image">
+                                <img width="95" height="95" src="rs/imgs/bloodmoney-clicker1.png" title="BloodMoney Unblocked" alt="BloodMoney Unblocked" />
+                                <span class="text-overflow uk-game-title">BloodMoney Unblocked</span>
+                                                            </div>
+                        </a>
+                    </div>
+                                    <div class="uk-grid-game">
+						<a class="uk-game-link" href="/steal-brainrot-online">
+                            <div class="uk-wrap-image">
+                                <img width="95" height="95" src="rs/imgs/steal-a-brainrot1.png" title="Steal Brainrot Online" alt="Steal Brainrot Online" />
+                                <span class="text-overflow uk-game-title">Steal Brainrot Online</span>
+                                                            </div>
+                        </a>
+                    </div>
+                                    <div class="uk-grid-game">
+						<a class="uk-game-link" href="/fnaf-2">
+                            <div class="uk-wrap-image">
+                                <img width="95" height="95" src="rs/imgs/fnaf2.jpg" title="FNaF 2" alt="FNaF 2" />
+                                <span class="text-overflow uk-game-title">FNaF 2</span>
+                                                            </div>
+                        </a>
+                    </div>
+                            </div>
+        </div>
+
+        <br />
+        <div class="uk-p10">
+            <div class="row">
+                <div class="frame-box-game">
+                    <div class="text-area">
+                        <div class="d-flex us-game-info">
+                            <div class="bread-crumb">
+                                <div class="overwrite-breadcumb">
+                                    <div class="d-flex al sp bread-crumb-list">
+                                        <div class="d-flex al sp">
+                                            <a class="bread-crumb-item" href="/">Home</a>
+                                            <span class="bread-crumb-item bread-after">Thwordle</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-area--content">
+                            <h2>About Thwordle</h2><p data-start="175" data-end="594">In the ever-expanding universe of online word‐games, <strong data-start="228" data-end="240">Thwordle</strong> is a standout newcomer that offers a clever twist on familiar mechanics. It takes what many players love about daily word puzzles&mdash;such as Wordle&mdash;and adds its own flavour to keep things engaging, challenging, and fun. Here&rsquo;s a deep dive into what makes Thwordle unique, how it works, why people are into it, and some tips if you want to get good at it.</p>
+<h3 data-start="596" data-end="619">What Is Thwordle?</h3>
+<p data-start="620" data-end="1000">Thwordle is a word‐guessing game where players try to deduce a secret word within a limited number of attempts. Like many modern puzzle‐games, its appeal lies in its simplicity paired with strategic depth. It builds on the template of &ldquo;correct letters / correct positions&rdquo; feedback, forcing players to think not just of valid words, but optimal guesses based on what&rsquo;s revealed.</p>
+<p data-start="1002" data-end="1240">While Thwordle shares some roots with Wordle and its many clones, it introduces distinctive mechanics (which may vary by version) that make its puzzles either more complex or more flexible&mdash;depending on your preferred level of challenge.</p>
+<h3 data-start="1242" data-end="1259">How to Play</h3>
+<p data-start="1260" data-end="1377">Though specific rules can vary slightly depending on the version, these are the core gameplay elements in Thwordle:</p>
+<ul data-start="1379" data-end="1914">
+<li data-start="1379" data-end="1537">
+<p data-start="1381" data-end="1537"><strong data-start="1381" data-end="1407">Word Length &amp; Attempts</strong>: You&rsquo;re given a fixed number of guesses (often six), and each guess must be a valid word of the same length as the secret word.</p>
+</li>
+<li data-start="1538" data-end="1711">
+<p data-start="1540" data-end="1711"><strong data-start="1540" data-end="1559">Feedback System</strong>: After each guess, letters will be marked to show whether they are in the correct spot, in the word but in the wrong spot, or not in the word at all.</p>
+</li>
+<li data-start="1712" data-end="1914">
+<p data-start="1714" data-end="1914"><strong data-start="1714" data-end="1747">Strategy Over Random Guessing</strong>: Because you only have limited tries, guessing words that maximize information (i.e. test many different letters and positions early) tends to be a better approach.</p>
+</li>
+</ul>
+<p data-start="1916" data-end="2069">Some versions of Thwordle may include extra features, such as Hard Mode, timed challenges, or different lengths of secret words to increase difficulty.</p>
+<h3 data-start="2071" data-end="2101">What Sets Thwordle Apart</h3>
+<p data-start="2102" data-end="2186">Here are a few things that make Thwordle stand out compared to other word puzzles:</p>
+<ul data-start="2188" data-end="2742">
+<li data-start="2188" data-end="2345">
+<p data-start="2190" data-end="2345"><strong data-start="2190" data-end="2220">Varied Difficulty Settings</strong> &ndash; Players might get options to choose easier or harder word banks, enabling beginners and experts alike to enjoy the game.</p>
+</li>
+<li data-start="2346" data-end="2496">
+<p data-start="2348" data-end="2496"><strong data-start="2348" data-end="2389">Flexible Word Lengths or Extra Rounds</strong> &ndash; Some versions allow guessing longer words or multiple words at once, making the game less predictable.</p>
+</li>
+<li data-start="2497" data-end="2601">
+<p data-start="2499" data-end="2601"><strong data-start="2499" data-end="2521">Community Features</strong> &ndash; Social sharing of results, leaderboards, or challenge modes add motivation.</p>
+</li>
+<li data-start="2602" data-end="2742">
+<p data-start="2604" data-end="2742"><strong data-start="2604" data-end="2632">Polished Feedback and UX</strong> &ndash; Clean visuals, smooth input, and helpful feedback make the experience satisfying&mdash;even when you don&rsquo;t win.</p>
+</li>
+</ul>
+<h3 data-start="2744" data-end="2768">Why It&rsquo;s Appealing</h3>
+<ul data-start="2769" data-end="3110">
+<li data-start="2769" data-end="2874">
+<p data-start="2771" data-end="2874"><strong data-start="2771" data-end="2789">Mental Workout</strong>: Trains vocabulary, deductive reasoning, pattern recognition, and sometimes speed.</p>
+</li>
+<li data-start="2875" data-end="2961">
+<p data-start="2877" data-end="2961"><strong data-start="2877" data-end="2908">Low Commitment, High Reward</strong>: A few minutes per session with high satisfaction.</p>
+</li>
+<li data-start="2962" data-end="3040">
+<p data-start="2964" data-end="3040"><strong data-start="2964" data-end="2985">Shared Experience</strong>: Daily puzzles and streaks connect players socially.</p>
+</li>
+<li data-start="3041" data-end="3110">
+<p data-start="3043" data-end="3110"><strong data-start="3043" data-end="3060">Replayability</strong>: Constantly changing words keep the game fresh.</p>
+</li>
+</ul>
+<h3 data-start="3112" data-end="3135">Tips &amp; Strategies</h3>
+<p data-start="3136" data-end="3185">If you&rsquo;re playing Thwordle and want to improve:</p>
+<ol data-start="3187" data-end="3459">
+<li data-start="3187" data-end="3260">
+<p data-start="3190" data-end="3260">Start with words using common vowels and consonants (R, S, T, L, N).</p>
+</li>
+<li data-start="3261" data-end="3314">
+<p data-start="3264" data-end="3314">Avoid repeats in early guesses unless suspected.</p>
+</li>
+<li data-start="3315" data-end="3368">
+<p data-start="3318" data-end="3368">Use process of elimination to test many letters.</p>
+</li>
+<li data-start="3369" data-end="3404">
+<p data-start="3372" data-end="3404">Track your feedback carefully.</p>
+</li>
+<li data-start="3405" data-end="3459">
+<p data-start="3408" data-end="3459">Stay flexible&mdash;don&rsquo;t lock onto one idea too early.</p>
+</li>
+</ol>
+<h3 data-start="3461" data-end="3486">Potential Drawbacks</h3>
+<ul data-start="3487" data-end="3726">
+<li data-start="3487" data-end="3562">
+<p data-start="3489" data-end="3562"><strong data-start="3489" data-end="3514">Word choice ambiguity</strong>: Sometimes secret words are rare or outdated.</p>
+</li>
+<li data-start="3563" data-end="3648">
+<p data-start="3565" data-end="3648"><strong data-start="3565" data-end="3604">Limited attempts and harsh feedback</strong>: A few unlucky guesses can cost the game.</p>
+</li>
+<li data-start="3649" data-end="3726">
+<p data-start="3651" data-end="3726"><strong data-start="3651" data-end="3675">Repetition &amp; fatigue</strong>: Daily puzzles may feel similar without variety.</p>
+</li>
+</ul>
+<h3 data-start="3728" data-end="3744">Conclusion</h3>
+<p data-start="3745" data-end="4026">Thwordle offers much of the satisfying puzzle fun of Wordle and its cousins, but with its own spin. Whether you&rsquo;re a casual player who enjoys stretching your mind for five minutes, or a word-game enthusiast chasing streaks and mastering strategy, Thwordle has something to offer.</p>                                                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!--END GAME PLAY--><footer>
+    <script src="rs/js/jquery-3.4.1.min.js"></script>
+    <script src="rs/js/footer.js"></script>
+</footer>
+</body>
+</html>
